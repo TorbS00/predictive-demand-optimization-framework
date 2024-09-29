@@ -14,5 +14,4 @@ optimal_stock = optimize_stock(prices, predicted_demand, stock_capacity=200)
 
 plot_demand_trends(df, 'Demand', save_as_pdf=True)
 
-# Final output
 print(f'Optimal stock levels: {optimal_stock}')
